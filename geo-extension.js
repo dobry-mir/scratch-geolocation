@@ -6,7 +6,7 @@
             this.latitude = null;
             this.longitude = null;
             this._updatePosition();
-            setInterval(() => this._updatePosition(), 10000);
+            setInterval(() => this._updatePosition(), 1000);
         }
 
         _updatePosition() {
